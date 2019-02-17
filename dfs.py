@@ -31,5 +31,5 @@ while i <= line:
     table[n - 1][m - 1] = 1
     i += 1
 
-print(0, end = "")
+print("1 ", end = "")
 s(0)
