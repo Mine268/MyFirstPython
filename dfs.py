@@ -17,7 +17,7 @@ def s(pos):
     k = 0
     while k < dot:
         if table[pos][k] == 1:
-            print(k + 1, end = "")
+            print(str(k + 1) + " ", end = "")
             table[pos][k] = 0
             s(k)
             k += 1
