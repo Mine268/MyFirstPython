@@ -23,6 +23,7 @@ def s(pos):
             k += 1
         else:
             k += 1
+    return
 
 i = 1
 while i <= line:
